@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linear Regression Prediction</title>
+</head>
+<body>
+    <h1>Linear Regression Prediction</h1>
+    <form action="/" method="post">
+        <label for="rd_spend">R&D Spend:</label>
+        <input type="text" id="rd_spend" name="rd_spend" required><br><br>
+
+        <label for="administration">Administration:</label>
+        <input type="text" id="administration" name="administration" required><br><br>
+
+        <label for="marketing_spend">Marketing Spend:</label>
+        <input type="text" id="marketing_spend" name="marketing_spend" required><br><br>
+
+        <label for="state">State:</label>
+        <select id="state" name="state" required>
+            <option value="New York">New York</option>
+            <option value="California">California</option>
+            <option value="Florida">Florida</option>
+        </select><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
